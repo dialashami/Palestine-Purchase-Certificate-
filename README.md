@@ -36,4 +36,3 @@ This repository focuses on backend development using modern .NET technologies an
 
 ---
 
-## 📁 Project Structure
