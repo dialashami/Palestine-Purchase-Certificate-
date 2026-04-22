@@ -36,3 +36,52 @@ This repository focuses on backend development using modern .NET technologies an
 
 ---
 
+
+## 📁 Project Structure
+
+
+Palestine-Purchase-Certificate/
+│── Controllers/
+│── Models/
+│── Services/
+│── Data/
+│── Program.cs
+│── appsettings.json
+│── README.md
+
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/dialashami/Palestine-Purchase-Certificate-.git
+2. Navigate into the folder
+cd Palestine-Purchase-Certificate-
+3. Run the project
+
+Using .NET CLI:
+
+dotnet run
+
+Or open in Visual Studio and run it.
+
+📌 API Endpoints (Example)
+Method	Endpoint	Description
+GET	/api/certificates	List all purchase certificates
+GET	/api/certificates/{id}	Retrieve a specific certificate
+POST	/api/certificates	Create a new certificate
+PUT	/api/certificates/{id}	Update an existing certificate
+DELETE	/api/certificates/{id}	Remove a certificate
+
+(Adjust according to your actual routes.)
+
+📝 Notes
+
+Feel free to extend this project with:
+
+Frontend UI (React, Angular, Vue, etc.)
+Authentication & authorization
+PDF generation for certificates
+Export & reporting features
